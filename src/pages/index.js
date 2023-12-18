@@ -12,9 +12,9 @@ export default function Home() {
       </div>
       <main>
         <div className="container">
-          <div className="h-full flex justify-center gap-8 mt-36">
-            <div className="flex flex-col justify-between">
-              <div>
+          <div className="h-full flex flex-col-reverse md:flex-row justify-center gap-8 my-20 md:my-36">
+            <div className="flex flex-col justify-center md:justify-between">
+              <div className="flex flex-col items-center md:items-start">
                 <h1 className="text-5xl font-bold">Ali Parvizi</h1>
                 <span className="text-xl font-light">Web Developer</span>
 
@@ -27,7 +27,7 @@ export default function Home() {
               </div>
               <Link
                 href="/contact"
-                className="border border-black rounded-lg py-3 px-5 w-fit"
+                className="border border-black rounded-lg py-3 px-5 w-fit mt-12 mx-auto md:mx-[unset]"
               > let's contact </Link>
             </div>
 
